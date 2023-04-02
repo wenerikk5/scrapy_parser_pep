@@ -8,7 +8,7 @@ A Scrapy parser for collecting information about PEP documentation (static pages
 
 ## Set up and use
 
-'''
+```
 # Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 # Start parsing by command
 scrapy crawl pep
-'''
+```
 
 Outcome files will be stored in 'project_name/results' directory.
 
